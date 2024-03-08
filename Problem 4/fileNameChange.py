@@ -1,3 +1,8 @@
+"""
+Name: Logan Roman
+Lab time: 2:00 Thurs
+"""
+
 def fileNameChange():
     #type your code here
     try:
@@ -11,8 +16,6 @@ def fileNameChange():
                 Line = Photos.readline()
     except FileNotFoundError:
         print("File not found.")
-
-
 
 if __name__ == '__main__':
     fileNameChange()

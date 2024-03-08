@@ -1,3 +1,8 @@
+"""
+Name: Logan Roman
+Lab time: 2:00 Thurs
+"""
+
 def wordInRange():
     #Type your code here
     try:

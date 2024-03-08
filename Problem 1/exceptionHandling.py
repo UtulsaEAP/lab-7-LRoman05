@@ -1,3 +1,8 @@
+"""
+Name: Logan Roman
+Lab time: 2:00 Thurs
+"""
+
 def exceptionHandling():
     # Split input into 2 parts: name and age
     parts = input().split()
