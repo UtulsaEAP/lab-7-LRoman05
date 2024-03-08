@@ -9,7 +9,7 @@ class TestClass:
 
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
-        inputs = iter(["./Problem 2/input1.txt","ammoniated","millennium"])
+        inputs = iter(["Problem 2\input1.txt","ammoniated","millennium"])
         monkeypatch.setattr('builtins.input', lambda: next(inputs, '\n'))
 
         # go about using input() like you normally would:
@@ -31,7 +31,7 @@ class TestClass:
 
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
-        inputs = iter(["./Problem 2/input1.txt","antheridia","holofernes"])
+        inputs = iter(["Problem 2\input1.txt","antheridia","holofernes"])
         monkeypatch.setattr('builtins.input', lambda: next(inputs, '\n'))
 
         # go about using input() like you normally would:
@@ -53,7 +53,7 @@ class TestClass:
 
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
-        inputs = iter(["./Problem 2/input2.txt","adrianople","misopaedia"])
+        inputs = iter(["Problem 2\input2.txt","adrianople","misopaedia"])
         monkeypatch.setattr('builtins.input', lambda: next(inputs, '\n'))
 
         # go about using input() like you normally would:
@@ -127,7 +127,7 @@ class TestClass:
 
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
-        inputs = inputs = iter(["./Problem 2/input2.txt","charcutier","winkelried"])
+        inputs = inputs = iter(["Problem 2\input2.txt","charcutier","winkelried"])
         monkeypatch.setattr('builtins.input', lambda: next(inputs, '\n'))
 
         # go about using input() like you normally would:
@@ -201,7 +201,7 @@ class TestClass:
 
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
-        inputs = inputs = iter(["./Problem 2/input3.txt","antipapism","queensland"])
+        inputs = inputs = iter(["Problem 2\input3.txt","antipapism","queensland"])
         monkeypatch.setattr('builtins.input', lambda: next(inputs, '\n'))
 
         # go about using input() like you normally would:
@@ -344,7 +344,7 @@ class TestClass:
 
         # monkeypatch the "input" function, so that it returns "Mark".
         # This simulates the user entering "Mark" in the terminal:
-        inputs = inputs = iter(["./Problem 2/input3.txt","dimerizing","kilndrying"])
+        inputs = inputs = iter(["Problem 2\input3.txt","dimerizing","kilndrying"])
         monkeypatch.setattr('builtins.input', lambda: next(inputs, '\n'))
 
         # go about using input() like you normally would:
